@@ -1,0 +1,27 @@
+.sponsors__container {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  padding: 1.5rem 0;
+}
+
+.sponsors__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sponsors__logo img {
+  width: 80px;
+  -webkit-filter: opacity(70%);
+          filter: opacity(70%);
+}
+
+.sponsors__logo img:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+/*# sourceMappingURL=sponsors.css.map */

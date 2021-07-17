@@ -1,0 +1,112 @@
+@media only screen and (max-width: 767px) and (min-width: 480px)  {
+    .home__img{
+        right: 10%;
+        width: 350px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    body{
+        margin: 0;
+    }
+
+    .section-all{
+        margin-bottom: $mb-4;
+    }
+
+    .nav{
+        height: calc(#{$header-height} + 1rem);
+        justify-content: initial;
+
+        &__menu{
+            margin-left: auto;
+        }
+
+        &__list{
+            display: flex;
+        }
+        &__item{
+            margin-left: $mb-4;
+            margin-bottom: 0;
+        }
+
+        &__toggle{
+            display: none;
+        }
+    }
+
+    .home{
+
+        &__container{
+            height: 100vh;
+        }
+        &__data{
+            padding: 0;
+            height: max-content;
+            align-self: center;
+        }
+        &__title{
+            line-height: .8;
+            letter-spacing: 1.5rem;
+        }
+        &__img{
+            width: 370px;
+        }
+
+    }
+
+    .collection{
+
+        &__container{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        &__box{
+            padding: 0.5rem 3rem 0;
+        }
+        &__img{
+            width: 130px;
+        }
+    }
+
+    .featured__container,
+    .sponsors__container,
+    .footer__container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .offer__data{
+        padding: 5rem 0;
+    }
+
+    .new__container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .newsletter__form{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .footer__container{
+        padding: 2rem 0;
+    }
+
+}
+
+
+@media screen and(min-width:1024px) {
+    .main-grid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home__data{
+        padding: 7rem;
+    }
+    .home__img{
+        right: 15%;
+        width: 450px;
+    }
+}

@@ -1,0 +1,14 @@
+.btn{
+    display: inline-block;
+    background: $second-clr;
+    color: $white-clr;
+    padding: 1rem;
+    font-size: $small-font-size;
+    font-weight: $font-semi;
+    transition: .34s linear;
+
+    &:hover{
+        background-color: $second-clr-alt;
+
+    }
+}

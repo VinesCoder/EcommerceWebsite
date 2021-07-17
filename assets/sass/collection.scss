@@ -1,0 +1,39 @@
+.collection__container{
+    row-gap: 2rem;
+}
+.collection__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    background: $gray-clr;
+    transition: .35s ease-in-out;
+
+    &:hover{
+        transform: translatey(-.5rem);
+    }
+}
+.collection__img{
+    width: 100px;
+}
+.collection__title{
+    font-size: $h1-font-size;
+    line-height: 1.2;
+    margin-bottom: $mb-2;
+    text-transform: uppercase;
+    font-weight: $font-semi;
+
+    span{
+        font-size: $h2-font-size;
+        color: $dark-clr-light;
+    }
+}
+.collection__view{
+    font-size:$small-font-size;
+    color: $dark-clr-light;
+    transition: .3s linear;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

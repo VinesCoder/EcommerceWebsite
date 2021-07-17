@@ -1,0 +1,19 @@
+.offer__bg{
+    background: url('/assets/img/offer.jpg') center/cover no-repeat;
+    text-align: center;
+}
+.offer__data{
+    padding: 3.5em .25rem;
+    background: rgba(0,0,0, .5);
+    color: $white-clr;
+}
+.offer__title{
+    font-size: $h1-font-size;
+    font-weight: $font-semi;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+.offer__description{
+    margin-bottom: $mb-2;
+    letter-spacing: .2rem;
+}

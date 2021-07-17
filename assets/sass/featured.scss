@@ -1,0 +1,37 @@
+.featured__container{
+    row-gap: 2rem;
+}
+.featured__product{
+    transition: .35s linear;
+
+    &:hover{
+        transform: translateY(-.5rem);
+    }
+}
+.featured__box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: $gray-clr;
+}
+.featured__new{
+    position: absolute;
+    top: 0;left: 0;
+    background: $second-clr;
+    color: $white-clr;
+    padding: 0.3rem 0.75rem;
+    font-size: $small-font-size;
+}
+.featured__data{
+    text-align: center;
+
+    &__name{
+        margin-bottom: $mb-1;
+        text-transform: uppercase;
+        font-size: $normal-font-size;
+    }
+    &__price{
+        color: $dark-clr-light;
+        font-weight: $font-semi;
+    }
+}

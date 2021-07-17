@@ -1,0 +1,18 @@
+.sponsors__container{
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    padding: 1.5rem 0;
+}
+.sponsors__logo{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 80px;
+        filter: opacity(70%);
+
+        &:hover{
+            filter: none;
+        }
+    }
+}

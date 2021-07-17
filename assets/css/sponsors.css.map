@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EAChB,qBAAqB,EAAE,OAAO;EAC9B,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,QAAQ;CACpB;;AACD,AAAA,eAAe,CAAA;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAU1B;;AAZD,AAII,eAJW,CAIX,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,YAAY;CAKvB;;AAXL,AAQQ,eARO,CAIX,GAAG,AAIE,MAAM,CAAA;EACH,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "../sass/sponsors.scss"
+    ],
+    "names": [],
+    "file": "sponsors.css"
+}

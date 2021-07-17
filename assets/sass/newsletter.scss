@@ -1,0 +1,18 @@
+.newsletter{
+    text-align: center;
+}
+.newsletter__description{
+    margin-bottom: $mb-2;
+    font-size: $small-font-size;
+    color: $dark-clr-light;
+}
+.newsletter__form{
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+.newsletter__input{
+    outline: none;
+    border: none;
+    background-color: $gray-clr;
+    padding: 0 1rem;
+}
